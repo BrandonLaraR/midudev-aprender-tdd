@@ -6,6 +6,8 @@ name: Platzi CI Brandon
 on:
   push:
     branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 
 jobs:
